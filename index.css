@@ -1,0 +1,63 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:aliceblue;
+}
+
+
+.container{
+    width: 80%;
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    margin-left: 10%;
+}
+
+
+.padd{
+    padding: 20px;
+}
+
+.header{
+    height: 50px;
+    width:100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cards{
+    width: 100%;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+.card{
+    height: 300px;
+    width: 18%;
+    background-color: tan;
+    margin-top: 30px;
+    background-size: cover;
+}
+
+
+.overlay{
+    height: 300px;
+    width: 100%;
+    background-color: tan;
+    
+}
+
+.opened{
+    display: none;
+}
+
+
+
+
+
